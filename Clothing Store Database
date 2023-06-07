@@ -1,0 +1,19 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, category TEXT);
+
+INSERT INTO store VALUES (1, "t-shirt", 4.99, "clothing");
+INSERT INTO store VALUES (2, "shorts", 10, "clothing");
+INSERT INTO store VALUES (3, "jeans", 20, "clothing");
+INSERT INTO store VALUES (4, "crewnecks", 30, "clothing");
+INSERT INTO store VALUES (5, "leggings", 15, "clothing");
+INSERT INTO store VALUES (6, "hoodies", 20, "clothing");
+INSERT INTO store VALUES (7, "v-necks", 13, "clothing");
+INSERT INTO store VALUES (8, "tank tops", 10, "clothing");
+INSERT INTO store VALUES (9, "tennis shoes", 24, "accessories");
+INSERT INTO store VALUES (10, "flip flops", 20, "accessories");
+INSERT INTO store VALUES (11, "heels", 30, "accessories");
+INSERT INTO store VALUES (12, "sundress", 35, "clothing");
+INSERT INTO store VALUES (13, "blazer", 40, "clothing");
+INSERT INTO store VALUES (14, "chinos", 42, "clothing");
+INSERT INTO store VALUES (15, "earrings", 20, "accessories");
+
+SELECT * FROM store ORDER BY price asc;
